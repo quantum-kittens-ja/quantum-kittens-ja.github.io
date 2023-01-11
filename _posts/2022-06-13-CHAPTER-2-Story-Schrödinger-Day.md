@@ -2,114 +2,117 @@
 title: 'Chapter 2 - Story - Schrödinger Day'
 ---
 
-“Twisted yarn,” Arya cursed as she examined the Town Hall’s pantry. It was Schrödinger Day, Whiskerton’s most joyous festival, and the councilcat—with pristine ginger coat, green eyes, and a penchant for sunbathing—found herself in somewhat of a quandary.
+アーリアは市庁舎の食料庫を調べながら、「ねじれ糸め!」と猫流の言い回しで苛立ちを口にしました。その日はウィスカートンで最も楽しいお祭りが催される「シュレーディンガーの日」でしたが、手入れの行き届いた赤褐色の毛に緑の瞳を持つ日光浴好きの議員猫アーリアは、少々困惑した様子でした。
 
-Schrödinger Day was the anniversary of Whiskerton becoming a town. The townscats always celebrated their Foundation Day with much pomp and grandeur, even umpteen generations later when Arya, the councilcat in charge of planning, found herself staring at the pantry’s contents.
+シュレーディンガーの日は、ウィスカートンが正式な町になった記念日で、町長たちはいつも盛大にその創立を祝いました。最初の記念日から何十世代も経た今日、計画担当の議会猫アーリアは、食料庫の中身をじっと見ながら途方に暮れている自分に気がついたのでした。
 
-You see, she had diligently instructed the Town Hall’s chefcat to bake tuna biscuits, which were the obvious choice of celebratory snack for this occasion’s evening cream. But that morning, a frantic chefcat reported that all the tuna biscuits she'd spent the entire night preparing had vanished. And no, it wasn't the town’s mischievous kittens who ate them. The tuna biscuits disappeared before her very eyes!
+彼女は市庁舎の料理長猫に、この日のイブニングクリームのお祝いのオードブルにふさわしいツナビスケットを焼くよう事前に事細かに指示していたのでした。けれども、今日の朝「一晩中かけて準備したツナビスケットがすべて消えてしまった」と、料理長猫が動揺を隠せない様子で報告してきたのです。いいえ、食べたのは町のイタズラ好きのやんちゃな子猫たちではありません。料理長猫曰く、ツナビスケットは彼女の目の前で忽然と消えてしまったのでした！
 
-Vanishing items weren't an uncommon occurrence in Whiskerton--though, to be fair, food hardly ever disappeared--and Arya figured the tuna biscuits would turn up again sooner or later. But she couldn't count on them returning in time. 
+ウィスカートンでは、モノが突然消えることは珍しいことではありませんでした--もっとも、食べ物が消えることはほとんどないのですが--そのため、アーリアはツナビスケットが遅かれ早かれ再び姿を現すだろうと考えました。しかし、それが大切なお祭りに間に合うかどうかまではわかりません。
 
-And so, after shoving her panic to the back of her mind where she commanded it to ‘stay' pending further instruction, Arya took the matter of celebratory snack into her own paws by examining the pantry for other options. But when she saw its contents, the panic threatened to break free. *No, no, Schrödinger Day cannot be ruined!* 
+そこでアーリアは、パニックする気持ちを静めて、料理長には「次の指示があるまで待つように」と命じてから、お祝いのお菓子として代わりに出せるものはないか、食料庫を探していたのです。しかし、食料庫のなかを見渡しながら、彼女は再びパニックに陥りそうになりました。「いいえ、いいえ、シュレーディンガーの日を台無しにすることはできないわ！」
 
-There were only two snack options available: cheese ribbons or salmon shortcakes. And herein lay the problem: while cats were curious and enterprising creatures, they were also awful sticklers for tradition, especially when it came to Schrödinger. And on Schrödinger ’s Day, only ever one snack was served with evening cream. 
+食べ物は、チーズリボンかサーモンショートケーキの二択しかありません。猫は基本的に好奇心旺盛で新子もの好きな生き物ですが、ことシュレーディンガーのことになると伝統にひどくこだわるのでした。そう、シュレーディンガーの日には、イブニング・クリームと一緒に供されるお菓子は必ずひとつだけに決まっています。
 
-But with just these two options available for the single celebratory snack, Arya was faced with an unfortunate choice. The townscats were evenly divided in their love for these particular snacks; either choice would result in half of them being disappointed. And Arya always avoided disappointing anyone if she could help it.
+しかし、準備していたお祝いのお菓子が消えてしまい、代わりのお菓子が2つしかないということで、アーリアは不運な選択を迫られることになりました。町民の間では、これらのお菓子への愛情が二分されており、どちらを選んでも半数はがっかりすることになります。そして、アーリアはできることなら誰も失望させたくなかったのです。
 
-*Cheese ribbons. No, can’t choose that, poor Jinxy one street over will end up hiccuping for days. Okay, salmon shortcakes, then. No, I’ll never hear the end of it from Blade. Fine, cheese ribbons. Oh, but Billito will box my ears at our next council meeting! But…if I choose salmon shortcakes,* Poh *will box my ears at our next council meeting!*
+「チーズ・リボン でどうかしら...。ああ、でもダメだわ。辻向こうのジンクシーさんが何日もしゃっくりがとまらなくなっちゃうわね。じゃあ サーモン・ショートケーキね。う、でもそれだとブレイドくんに何を言われるか...やっぱりチーズ・リボンにしよう。でも次の議会でビリットさんに引っ掻かれちゃうかも...サーモン・ショートケーキを選んだら...今度はその次の議会でポーに猫パンチをお見舞いされちゃうわ！」
 
 ![](/assets/imgs/Arya_Full_Illustration.png){: style="max-width: 300px" .left}
-Arya’s thoughts raced hither and thither, threatening to implode, panic rearing its wretched head. She eventually realized she could either stay there, paralyzed by her thoughts, or she could cat up and make a decision. So, make a decision it was, but she would do so by consulting a marble. Marbles could be helpful when faced with a difficult choice between two equally weighted options.
+さまざまな考えが頭を駆け巡り、アーリアは再びパニックに陥りそうになりました。それでも彼女はふと我に返って、このまま決断できない状態をつづけるか、それとも決断を下すかのどちらかしかないことに気づきました。そこで、最終的な決断を下すのにビー玉を活用することにしました。ビー玉は、ふたつの選択肢の間で迷うときに役立つことがあるのです。
 
-She went to her office within Town Hall, a cozy room that bore an abundance of books, smells of fresh ink and parchment, and sunbathing spots. And a marble or two.
+アーリアは早速、市庁舎の自分のオフィスに向かいました。彼女のオフィスにはたくさんの書物がありました。そこは、新鮮なインクと羊皮紙のにおいに満たされた、日光浴にもうってつけの日当たりの良い部屋で、ビー玉もいくつか箱のなかに仕舞ってありました。
 
-Whiskertese marbles had a curious property: they were red and blue at the same time, a superposition of two colors, until someone looked directly at them. When directly observed, a Whiskertese marble would either turn red or turn blue, with a fifty percent chance of either color. Should one pack a room with a hundred Whiskertese marbles, and thereafter look directly at each individual marble, close to half would turn red and close to half would turn blue. There was no way to tell beforehand which of the two colors a marble would become. 
+ウィスカートンのビー玉には不思議な性質が備わっています。ビー玉は、誰かが直接見るまでは、赤と青、ふたつの色が重ね合わせの状態にあるという、不思議な性質を持っていました。例えば、そのビー玉を手にとって直接見てみると、50パーセントの確率で赤になったり青になったりするのです。100個のウィスカートンのビー玉を部屋に集めて、そのビー玉を観察すると、半分近くが赤くなり、半分近くが青くなる。このように、ビー玉がどちらの色に変わるかは、事前に知ることはできないのでした。
 
 ![](/assets/imgs/Marble_Animation.png){: style="max-width: 150px" .right} 
-Arya pawed one of the marbles out of a storage box, careful to avoid looking at it directly.
+アーリアは箱からビー玉を一つ取り出し、直視しないよう注意しながら、それを手に取りました。
 
-"If it turns blue, I will choose cheese ribbons. If it turns red, I will choose salmon shortcakes," she declared aloud to her office’s occupants: giant piles of books and paper, half very important bureaucratic documents, half napping perches.
+「青くなったら、チーズリボン。赤になったら、サーモンのショートケーキを選ぶわ。」彼女は、オフィスに居る猫たちにも聞こえるよう、声を大にして宣言しました。
 
-But, alas, Arya never got her answer, for just as she was about to observe the marble, a commotion outside her window snatched her attention. And what she saw when she bounded over to the window unleashed her panic in all its glory. For in clear view was the town square, the statue of Schrödinger, all the props, tables, and decorations the adult townscats had meticulously assembled for the festivities, and: a band of excitable kittens tearing through *everything*.
+しかし、あいにくアーリアはその答えを得るに至りませんでした。なぜなら、ビー玉を観察しようとしたその瞬間、窓の外が急に騒がしくなり、アーリアの注意が逸らされてしまったからです。窓の外をのぞいた彼女が目にしたのは、町の広場、シュレーディンガーの像、大人の町猫たちが祭りのために丹精込めて作った小道具、テーブル、飾り付けを、興奮した子猫の一団が荒らし回っている光景でした。
 
-They headed straight for the statue. Arya leaped out the window and hastened after them.
+その一団が、今度はまっすぐ像のほうに向かっています。アーリアは窓から飛び出し、現場へと急いで走って向かいました。
 
-“No, no! Halt, kits!” Arya chastised, struggling to maintain the appearance of calm—at the end of the day she was a rather gentle cat, and it wouldn’t do to lose her temper on Schrödinger Day, now would it? “You were given strict instructions to stay aw…” But she trailed off when it was evident they were deaf to her admonishments; something else had captured their attention. She followed their collective gaze upward to the branches of the Great Scratching Tree. And then blew an exasperated huff between her teeth. 
+「コラ、コラ、止まりなさい！」アーリアは、冷静さを保つのに必死でした。結局のところ、彼女はかなり優しい気質の猫で、シュレーディンガーの日にキレるのは彼女には似つかわしくないことでした。「みんな、準備中はこの場所に近づいちゃいけないってあれほど言っ......」。しかし、子猫たちの耳に彼女の言葉が届いていないことが明らかになると、今度は言葉を失いました。彼女は子猫たちの視線の先を追って、グレイトスクラッチングツリーの高枝を見あげました。そして、憤慨まじりに大きく息を吐き出しました。
 
-Luna. 
+ルナ!
 
-Luna, Luna, Luna. While the townskittens had been instructed to steer clear of the preparations until just before the celebration, she should have known to keep Luna in particular occupied far away from the square. For up in the now-shredded streamers of the Tree, extending a raring paw toward a purple feather that had popped into existence right above the statue, was the town's most mischievous, excitable, and destructive kitten of all: Luna.
+ああ、ルナ、ルナ、ルナ...。子猫たちには、お祝いの祭りが始まるまでは、準備している場所に立ち入らないよう指示していましたが、今思えば、ルナを広場から遠ざけておくよう子猫たちに指示しておくべきでした。なぜならルナこそ、この町で最もイタズラ好きで、興奮しやすくて、破壊的な子猫だったからです。そしていま、ツリーに飾られたボロボロにちぎれてしまった輪飾りのなか、銅像の真上に出現した紫色の羽根に向かって猛烈に前足を伸ばしていたのは、他でもないルナでした。
 
-Technically, Luna was a tad old to be called 'kitten', but she was small for her almost-ready-to-be-an-adult-cat age. Her expression was permanently that of raised eyebrows, had she eyebrows at all, which could be interpreted as wonder or concern, contingent upon the circumstances. Her fur was short and ginger, prone to a slight grunge since her insatiable curiosity left her easily distracted during a bath.
+ルナは「子猫」と呼ぶには少し歳を取り過ぎていましたが、もうすぐ成猫になる年齢の割には小柄でした。彼女は常に眉を寄せており、状況によっては驚きとも懸念ともとれる表情を浮かべています。毛は短く茶トラ色で、好奇心旺盛が故にお風呂に入るとすぐに気が散って、身繕いもそこそこに毛並みが乱れがちでした。
 
-Luna teetered on the edge of a branch, hanging close to the statue. Hanging *precariously* close to the decorative contraption that was the most important part of the occasion, more so than the celebratory snack: a glitter machine atop Schrödinger’s hat.
+そんなルナは銅像の真上近くの枝の端から危なっかしそうにぶら下がっています。そしてよりによって、シュレーディンガーの帽子の上に設置されたキラキラの素材でできた紙吹雪が仕込まれたからくり機械（キラキラマシン）が目と鼻の先にあるではありませんか。
 
-You see, the townscats of Whiskerton enjoyed uncertainty. They also enjoyed shiny things. Each year, as a signal to commence the Foundation Day celebrations, a flurry of glitter was released over the statue.
+ウィスカートンの町の猫たちは、不確実性を好み、そしてキラキラ光るものが大好きでした。毎年、創立記念日を祝う合図とともに、銅像の上からはキラキラと光る紙吹雪が放たれたのでした。
 
-The glitter machine consisted of a single marble connected to two glitter vials. During the opening ceremony, a designated councilcat looked directly at the marble. The marble turned either red or blue, and one of the vials would pop open depending on the marble's color, showering colored glitter on their town's beloved founder. In the days leading up to the holiday, the townscats greatly enjoyed debating which of the two colors would be released. This year, a green glitter vial was linked to the marble's red, and a purple glitter vial was linked to the marble's blue. 
+キラキラマシンには、1個のビー玉の先に2つの異なる色のキラキラの詰まった瓶がつながっています。オープニング・セレモニーでは、その年選ばれた議員がビー玉を直接見つめます。ビー玉は赤か青に変わり、その色に応じて小瓶の一つが開き、自分たちの町の愛する創設者に色つきのキラキラを浴びせるのでした。この日も、2色のうちどちらが出るか、町民の間でも大論争になっていました。今年は、ビー玉が赤のときは緑のキラキラ、青のときは紫のキラキラの詰まった小瓶が用意されました。
 
-Forget the evening snack; if Luna damaged the glitter machine, the celebrations would be ruined. Arya shouted to Luna, but of course, at that moment, Luna's whole world consisted solely of the purple feather. There was no room for admonishments, glitter machines, or even other cats.
+夜のお菓子の心配をしている場合ではありません。ルナがキラキラマシンを壊してしまったら、せっかくのお祝いが台無しです。アーリアはルナに向かって叫びましたが、ルナの意識は紫の羽根に全集中していました。どんな忠告もキラキラマシンも、他の猫もその注意を逸らすことができません。
 
-Arya scanned the area for something to lure Luna away, for she feared tipping the kitten off the branch if she attempted to climb the tree herself.
+アーリアはルナをその場から遠ざける方法を必死に求めてその場を見渡しました。自ら木に登って捕まえようとすると、かえってルナが枝から落ちてしまいそうだったからです。
 
-Her eyes fell on a familiar assortment of tools scattered around an open toolbox by the statue's pedestal. It was as if a buildercat had abruptly abandoned his task for a nap or a bath. She knew exactly to whom that toolbox belonged.
+そんなアーリアの目に飛び込んできたのは、銅像の台座にある工具箱の周りに散らばった、見慣れた工具の数々でした。その様子は大工猫が昼寝かお風呂に入るために突然仕事を放棄したかのようでした。彼女は、その工具箱が誰のものかをよく知っていました。
 
-"Blade?" Arya called, hoping her best friend would hear her, wherever he was.
+「ブレイド？」 アーリアは親友に聞こえるよう祈りながら呼びかけました。
 
 ![](/assets/imgs/Blade_Full_Illustration.png){: style="max-width: 300px" .right}
-Blade was an agile black cat with blazing yellow eyes, skilled with marbles and tools, and even more skilled at being easily startled. Unsurprisingly, the sudden echo of his name off the buildings that lined the square provoked a monumental leap into the air, back arched. Where had he been? Curled up, fast asleep, tucked under a bush, dreaming of pigeons.
+ブレイドは黄色い目をした俊敏な黒猫で、ビー玉や道具の扱いに長けていましたが、それ以上に驚きやすい性格の持ち主でした。案の定、広場に立ち並ぶ建物に突然自分の名前がこだますると、背中を丸めて宙に飛び出しました。彼は今までどこにいたのだろう？どうやら茂みの下で丸くなって、鳩の夢を見ながら眠っていたようです。
 
-Blade’s protests at his nap’s interruption ceased instantly when he spotted Luna. He scampered to join Arya and the kittens at the foot of the tree, calling to the maddening rascal about how hard he worked on that glitter machine and that she should come down if she knew what was good for her. 
+最初は昼寝を邪魔されて不機嫌そうだったブレイドも、心配そうなルナの表情を見るやいなや即座に状況を理解しました。木の下にいるアーリアと子猫たちのところへ駆け寄り、ルナに、自分がどれだけキラキラマシンの調整に頑張ったか、自分の身のためにも降りてくるべきだ、と必死に呼びかけました。
 
-It didn’t work, of course.
+案の定、ブレイドの必死の訴えもルナには何の効き目もありませんでした。
 
-The cats scrambled for ideas, and even the kittens around them chimed in excitedly.
+猫たちはアイデアを出し合い、周りの子猫たちも興奮気味に意見を出し始めました。
 
-"Do you think we can distract her with another feather?" Arya said.
+「別の羽で気をそらすことができるかしら？"」アーリヤが言いました。
 
-"I haven't seen another pop up around here for a few hours," Blade said.
+「あいにくここ数時間、この辺りで羽の出現は見かけていないよ 」とブレイドは言いました。
 
-"How about tossing up a ball?" one of the kittens piped in.
+「ボールを投げてみようか」と一匹の子猫が提案しました。
 
-“Or a felt mouse?” said another.
+「フェルトのネズミは？」と別の子猫もききます。
 
-"We would not be able to guarantee that it would head in Luna's direction," Arya replied, not unkindly.
+「そうね。でもルナの方に向かうとは限らないわ」と、アーリアは子猫たちの意見を尊重しつつ答えました。
 
-But it turns out their ponderances were in vain, for a series of rather unfortunate events occured: 
+さて、こうした彼らの議論もむなしく、このあと不幸な出来事が続発します。
 
-First, Luna lost her balance, tumbling head-first towards the feather. 
+まず、バランスを崩したルナが、頭から先に羽のほうに向かって突如転がり落ちはじめました。
 
-Then, her tail whipped around, headed straight for the glitter machine.
+次に尻尾がひるがえったかと思うと、その先っぽがキラキラマシンのほうに向かっているではありませんか。
 
-Blade noticed Luna losing balance and jumped, hoping to intercept her before she hit the glitter machine. Unfortunately, Blade cannot jump very high unless he is startled, and thus, did not make it even remotely close to the kitten. 
+バランスを崩したルナに気づいたブレイドは、キラキラマシンにぶつかる前にルナを捕らえようと、ジャンプしました。しかし、不意に驚かされない限りはそれほど高く跳ぶことができないブレイドは、子猫のところまでは届きません。
 
-Luna's tail hit the machine. 
+ついにルナの尻尾がキラキラマシンを直撃します。
 
-Machine, kitten, feather plummeted as one, snapping up the cat on the way down.
+マシン、子猫、羽が一体となって急降下すると、あとから飛び出してきたブレイドもろとも地面に落下しました。
 
-Luna landed on her feet, feather proudly clamped between her teeth. One look at Arya's face set her darting away to inspect her prize. 
+ルナは、歯の間に誇らしげに羽をくわえながら、地面にすたっと降り立ちました。そしてアーリヤの顔を見るやいなや、戦利品の羽を別の場所でじっくり鑑賞しようと、そそくさとその場を走り去ってしまいました。 
 
-But Blade?
+でも、ブレイドはどこに？
 
-Poor Blade had landed in his own toolbox, along with the glitter machine. The lid of the box clapped shut over his head.
+なんと、哀れなブレイドは、キラキラマシンとともに、自分のおおきな工具箱のなかに落ちてしまったのでした。箱の蓋が彼の頭の上でパタンと閉じました。
 
-Arya blinked. The kittens blinked.
+アーリアと子猫たちは目をパチクリさせました。
 
-Even though dread about ruined celebrations coursed through Arya, reflexive excitement began to stir in her gut, and it was evident that she wasn't alone: the kittens whispered and shuffled their feet buoyantly.
+ここでアーリアは一瞬、祝宴が台無しになってしまったやもしれない恐怖にかられながら、次第にいいようのない興奮に見舞われ始めていました。それは一緒にいた子猫たちも同じで、一斉に高揚まじりにヒソヒソ話をはじめ、浮かれ足でシャカシャカと歩きはじめました。
 
-For what they had before them was a glorious *uncertainty*. A cat inside a box, and with him the glitter machine! The machine had likely been set off by the fall, which meant Blade could be swathed in purple glitter. Or he could be green. No one could be sure until they looked. Just like a Whiskertese marble. What a magnificent conundrum!
+なぜなら、彼らの目の前にあるのは、実に見事な「不確実性」だったからです。箱の中には猫、そしてその猫と一緒に閉じ込められているキラキラマシン。そのマシンは落下によって すでに起動したようです。つまり、中にいるブレイドは紫のキラキラに包まれている「可能性」があります。 あるいは緑色かもしれません。それは「見てみなければ判らない」ウィスカートンのビー玉と同じ。これはなんと予期せぬ素晴らしい展開でしょう！
 
-Whispers turned to impassioned shouts of color guesses, and an enlivened crowd coalesced in the square as word spread through the town like wildfire. Arya could hear Blade's muffled mutterings about interrupted naps and useless kittens and inconsequential feathers as he attempted to push open the lid, but she couldn't have any of that, now, could she? For as she gazed at the enthused gathering cats, she realized Schrödinger Day wasn’t ruined at all! This novel uncertainty was too captivating. 
+ヒソヒソ声がざわめきへと変わり、気がつけば広場には熱狂的な群衆が集まり、噂は野火のように町中に広がっていきました。箱の中からは、「昼寝の邪魔だ」、「子猫は役に立たない」、「羽はどうでもいい」、などとブツクサ言うブレイドの声がアーリアには聞こえてきます。そんなブレイドの言葉をよそに、アーリアは熱狂的に集まってくる猫たちを眺めながら、シュレーディンガーの日が台無しになるどころか、むしろこの事態によって実に魅力的な様相を呈してきていることにワクワクしていました。
 
-She hopped lightly onto the lid so that Blade couldn't leave. His mutterings grew louder, and this time "obnoxious best friends" were added to his list.
+彼女はとっさに、ブレイドが出られないようピョンと箱の蓋の上に飛び乗りました。彼の独り言は次第に大きくなり、今度は「まったく！親友なのにさ！」という言葉も箱の中から聞こえてくるようになりました。
 
-Oh, she would let him out eventually, of course, and even slip him extra snack portions for being such a good sport, but she'd let the townscats have their fun first. 
+もちろん、いずれは外に出してあげるつもりだったし、いい余興になってくれたお礼にあとで特別におやつも渡すつもりでいましたが、アーリアにとって、ここは町の猫たちに楽しんでもらうことが先でした。
 
-“Listen up,” she called out. “I have a proposal for you, my dear cats. Let our celebratory snack be decided by the color of Blade’s coat. Green for cheese ribbons, purple for salmon shortcakes. What say?”
+「みんな、よく聞いて！ 」と彼女は呼びかけました。
+「親愛なる猫たちに提案があります。」
+「お祝いのおやつは、ブレイドの毛色で決めましょう。」
+「緑ならチーズリボン、紫ならサーモンショートケーキ。どうでしょう？」
 
-And, to Arya’s delight, not a single cat objected. 
+嬉しいことに、アーリアの提案に反対する猫は一匹もいませんでした。
+(まあ、ブレイドは別として。)
 
-(Well, except for Blade.)
 
 ![](/assets/imgs/Box_Animation.png){: style="max-width: 500px" .center}
 
@@ -123,7 +126,7 @@ _____________________________
 _____________________________
 
 
-**[Chapter 2 Part 2 - Commentary - Qubits, Superposition, and Measurement](https://quantum-kittens.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/)**
+**[第2章 - 解説 - 量子ビット, 重ね合わせ, 測定](https://quantum-kittens-ja.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/)**
 
 
-**[Chapter 3 - Story - Doorbells](https://quantum-kittens.github.io/posts/CHAPTER-3-Story-Doorbells/)**
+**[第3章 - 物語 - 呼び鈴](https://quantum-kittens-ja.github.io/posts/CHAPTER-3-Story-Doorbells/)**
