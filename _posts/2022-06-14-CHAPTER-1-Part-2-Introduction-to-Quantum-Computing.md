@@ -1,38 +1,36 @@
 ---
-title: 'Chapter 1 Part 2 - Commentary - Introduction to Quantum Computing'
+title: '第1章- 解説 - 量子コンピューティング入門'
 math: true
 ---
 
-Ours is a world governed by classical physics, in which a film is either playing or paused, a coin lands on either heads or tails, and a cat is either alive or dead. Classical physics is what we experience in our everyday lives. Based on the trajectory and velocity of a ball you've thrown, it's pretty easy to predict with reasonable certainty where the ball will land--depending on your aiming skills, it may not land where you intended it to, of course, but once it's left your hand, you can deduce where it is headed. There's zero chance of it landing at your feet, say, if you've thrown it with enough force.
+私たちの世界は古典物理学に支配されています。そこでは、映画は上映中か一時停止中、コインは表か裏、猫は生きているか死んでいるか、のどちらかです。古典物理学とは、私たちが日常生活で体験していることです。投げたボールの軌道と速度から、ボールがどこに落ちるかを予測するのは簡単です。もちろん、狙ったところに落ちるとは限りませんが、いったん手から離れたボールがどこに向かうかは計算できます。例えば、力いっぱい投げて足元に落ちる可能性はゼロです。
 
-However, if you were to shrink down--and I mean *really* shrink down--you'll fast discover that the laws that govern the subatomic world are much different from what we experience on a macroscopic scale. Down there, throwing a ball would look very different.
+しかし、素粒子など超ミクロの世界を支配する法則は、マクロなスケールで経験するものとは大きく異なります。ミクロの世界でボールを投げたときは、マクロのそれとは全く違うものになります。
 
-The subatomic world is the domain of quantum physics, where results are governed by probabilities.[^fn-nth-1] Outcomes that wouldn't have been likely in the classical context would suddenly be possible. The ball could very well land at your feet no matter how hard you throw it! You and the ball would be subatomic particles, like electrons, and hence governed by the laws of quantum physics.
+素粒子の世界は量子物理学の領域で、結果が確率で支配されます[^fn-nth-1] 。古典的な文脈ではありえないような結果が、突然可能になるのです。どんなに強く投げても、ボールが足元に落ちてしまう可能性があるのです。あなたとボールは電子のような素粒子であり、量子物理学の法則に支配されているのです。
 
-[^fn-nth-1]: While quantum physics is prevalent at the subatomic, microscopic level, there are some processes that display quantum effects even at the macroscopic level. But not really things we encounter as we go about our daily lives.
+[^fn-nth-1]: 量子物理学は素粒子、ミクロの世界を支配していますが、マクロの世界でも量子的な現象はみられます。ただし、私たちが日常生活でそれらに遭遇するようなことはあまりありません。
 
-What makes quantum physics so bizarre and, in a way, counterintuitive, is that there are certain quantum phenomena that have no counterpart in classical physics. Quantum particles can be in a superposition of more than one state, they can be entangled, and there are uncertainties associated with their behaviors. There is nothing that we experience in our classical world that is analogous to any of these properties!
+量子物理学が奇妙で、ある意味、直感に反するのは、古典物理学では説明できない量子現象が存在することです。量子世界の粒子は2つ以上の状態を重ね合わせることができ、もつれ状態になることができ、その挙動には不確定性があるのです。私たちが古典的な世界で経験していることで、これらの性質に類似するものは何もないのです。
 
-The extraordinary, counterintuitive properties of quantum particles can be harnessed for computing in ways that the digital devices we use every day, or “classical computers”, simply cannot. Quantum computing, we call it. 
+量子の持つ驚異的で直感に反する性質を利用することで、私たちが日常的に使っているデジタル機器、つまり「古典コンピュータ−」ではできないような方法で、計算を行うことができます。私たちはこれを「量子コンピューティング」と呼んでいます。
 
->Quantum computing differs as a computing system from classical computing because of the way it employs the fundamental laws of nature.
+>量子コンピューターは、自然界の基本法則を利用した計算システムであるため、古典的な計算機とは異なります。
 {: .prompt-tip }
 
-And the difference has enormous potential: it is widely believed that near future quantum computers that work perfectly may be able to solve certain problems that even today’s most powerful supercomputers cannot. Problems like handling monumental amounts of data, simulating complex molecules to discover new drugs, materials, and chemical processes, and prime factorization of very large numbers.
+そして、その違いは大きな可能性を秘めています。近い将来、量子コンピューターが理論どおり動作するようになれば、現在の最も強力なスーパーコンピューターでさえ解決できないような問題を解決できるようになるかもしれない、と考えられています。例えば、膨大な量のデータの処理、新薬や材料、化学プロセスを発見するための複雑な分子のシミュレーション、非常に大きな数の素因数分解などの問題などです。
 
-We still are a ways away from reaching this ideal quantum computer that works perfectly and seeing this potential realized; there are a number of hardware obstacles to overcome. But imperfect quantum computers already exist today, some even publicly accessible through the cloud, and researchers and industry professionals alike are working to identify near-term useful applications and evolve the hardware.
+完璧に動作する理想的な量子コンピューターが実現されるにはまだ道半ばであり、克服すべきハードウェアの課題が数多く存在します。しかし、ノイズありの中規模量子コンピューターは現在すでに存在し、一部はクラウドを通じて一般に公開されています。研究者や業界関係者は、近い将来に役立つアプリケーションを特定し、ハードウェアを進化させるために努力しています。
 
-At this point, it is important to note that quantum computers won’t replace our classical computers; only complement them by extending the realm of computing possibilities. 
+ここで重要なポイントとして特筆したいのは、量子コンピューターは古典的なコンピューターに取って代わるものではなく、計算可能な領域を広げることで補完するものであるということです。 
 
->We don’t need quantum computers to binge-watch tv shows when we can do so perfectly with our own devices. We need them for things classical computers aren’t very good at!
+>量子コンピューターはテレビ番組を夢中で見るために必要ではありません。それは既存のデバイスで十分実現できているからです。量子コンピューターが必要なのは、古典的なコンピューターが得意でないことのためなのです。
 {: .prompt-tip }
 
-Illustrated in the stories ahead are various important quantum phenomena and how they are used for quantum computing.
 
-Let's venture together to Whiskerton, now, shall we?
+この先の物語で描かれるのは、量子コンピューティングを実現するために重要な量子現象とその応用になります。
 
-_____________________________
-
+さあ、それではウィスカートンまで一緒に参りましょう。
 
 _____________________________
 
@@ -40,6 +38,9 @@ _____________________________
 _____________________________
 
 
+_____________________________
 
-**[Chapter 2 - Story - Schrödinger Day](https://quantum-kittens.github.io/posts/CHAPTER-2-Story-Schr%C3%B6dinger-Day/)**
+
+
+**[第2章 - 物語 - シュレーディンガーの日](https://quantum-kittens.github.io/posts/CHAPTER-2-Story-Schr%C3%B6dinger-Day/)**
 
