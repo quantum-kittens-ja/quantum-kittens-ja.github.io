@@ -1,146 +1,150 @@
 ---
-title: 'Chapter 2 Part 2 - Commentary - Qubits, Superposition, and Measurement'
+title: '第2章 - 解説 - 量子ビット, 重ね合わせ, 測定'
 math: true
 ---
 
 
 
-You very likely know what classical computing is; it’s what most people mean when they say “computing”. This is the computing done by everyday electronic gadgets like the device you’re using to read this, and even the computing done by supercomputers tucked away in labs.
+古典コンピューティングとは、ほとんどの人が「コンピューティング」と言ったときに指すもののことです。例えば、いまあなたがこの文章を読むのに使っているような日常的な電子機器によって行われる計算であり、研究室にあるスーパーコンピュータによって行われる計算も含みます。
 
-Deep down at the fundamental level of a classical computer, information is carried by *bits*: single units of information that can have only one of two values or *states*: 0 or 1.  In much the same way, quantum computers have a fundamental computing unit, called quantum bits or *qubits*. Here’s a fun fact: the marbles of Whiskerton actually represent qubits!
+古典的なコンピューターの場合、情報の基本単位は「ビット」によって運ばれます。これは、2つの値または「状態」のうちの1つだけを持つことができる情報の最小単位で0か1かの2値しか持ちません。 これと同じように、量子コンピューターにも、「量子ビット」と呼ばれる基本的な情報の単位があります。ウィスカートンのビー玉も、実は量子ビットと同じものを表しているのです。
 
-## What is a Qubit?
+## 量子ビットとは?
 
-A qubit is the simplest system in quantum computing, the fundamental building block for quantum computation. Physically, qubits can take a number of different forms, depending on the hardware a quantum computer uses. But, behaviorally, they act the same way. So you can consider a ‘qubit’ to be an abstract mathematical object that behaves in a curious manner different from a classical bit. Classical bits can take on one of two values, 0 and 1, but a qubit can do that and more:
+量子ビットは、量子コンピューターにおいて最も単純な系であり、量子コンピューターの基本的な構成要素です。量子ビットは物理的には、量子コンピューターが使用するハードウェアによって、さまざまな方式で実現できます。しかし、どのような方式でも、動作的には同じように動作します。つまり、「量子ビット」とは、古典的なビットとは異なる不思議な振る舞いをする抽象的な数学的オブジェクトであると考えることができます。古典的なビットは、0と1の2つの値のどちらかを取ることができますが、量子ビットはそれ以上のことをすることができるのです。
 
-> Qubits are abstract mathematical objects that have the ability to not only be in the states 0 or 1, but in a *superposition* of the two. 
+> 量子ビットは、0と1の状態だけでなく、その2つの状態の「重ね合わせ」を取ることができる抽象的な数学的なオブジェクトです。
 {: .prompt-tip }
 
-## Quantum Superposition
+##  量子重ね合わせ
 
-Quantum superposition is a neat quantum physics phenomenon that doesn’t really have an analog in classical physics. You can think of it as a combination. 
+量子重ね合わせは、古典物理学にはみられない、量子物理学の現象です。重ね合わせは一種の「組み合わせ」だと考えることができます。
 
-Where classical bits can only ever be in state 0 or 1 and never a combination of the two, quantum states can be combined and still be valid states. So the state of a qubit can be a combination of 0 *and* 1.
+古典的なビットは0か1のどちらかの状態でなければならず、2つの状態を組み合わせることはできませんが、量子ビットは組み合わせても有効な状態にすることができます。つまり、量子ビットの状態は、0と1の組み合わせが可能なのです。
 
-![](/assets/imgs/Marble_Animation.png){: style="max-width: 150px" .left} In Whiskerton, the marbles are by default in such a superposition state: an equally weighted combination of the colors red and blue. It would be incorrect to think of these colors as paint colors. In your everyday, classical experience, if you combine red and blue paint, you would get purple paint. But Whiskertese marbles aren’t actually purple; after a cat directly observes a marble, the color can turn either red or blue, with a fifty percent chance for each. You definitely cannot get the colors red or blue back if you have purple paint!
+![](/assets/imgs/Marble_Animation.png){: style="max-width: 150px" .left} ウィスカートンでは、ビー玉は赤と青が同じ重み付けで組み合わせた状態になっています。ただ、この色を絵の具の色と同じだと考えるのは間違いです。例えば、赤と青の絵の具を組み合わせると、紫色の絵の具になります。そして混ぜた結果の紫色の絵の具からはもはや赤や青の色は単色取り出せませんよね？しかし、ウィスカートンのビー玉を住民猫が直接観察すると、50パーセントの確率で赤色に、50パーセントの確率で青色に変化し、けっして紫色にはなりません。必ず赤か青、どちらか一方の色になります。
 
-Being able to make use of this wondrous phenomenon is one of the ways quantum computing differs from classical computing. In a classical computer, if you perform an operation on a bit, you’re essentially performing that operation on either a 0 or 1, one at a time. If you need to perform an operation on both, you’d have to do so in two shots, consecutively. 
+この不思議な現象を利用できることが、量子コンピューターと古典コンピューターの違いの1つです。古典的なコンピューターでは、ビットに対して演算を行う場合、基本的に0か1のどちらか一方に対して演算を行うことになります。もしも、その両方に対して演算を行う必要がある場合は、2回に分けて連続して演算を行う必要があります。
 
-But by harnessing superposition, a quantum computer could perform that operation on both 0 and 1 at the same time. If we scale this up to many qubits, you can imagine how this may potentially result in speed-ups or an increase in memory capacity or other improvements.
+しかし、量子コンピューターは、重ね合わせの原理を利用することで、0と1の両方に対して同時に演算を行うことができるのです。これを多くの量子ビットに拡張すれば、計算の高速化、メモリ容量の増加などの改良につながる可能性があることはご想像いただけると思います。
 
-## Measurements
+## 測定
 
-You’ve seen that the marbles have a fifty percent chance of becoming red or blue upon direct observation. A cat observing a marble is a metaphor of measuring a qubit’s state, where red represents a 1 and blue represents a 0. In real life, measurements are conducted by measuring physical quantities in the lab.
+ビー玉を直接観察すると、50％の確率で赤や青になることがわかりましたね。猫がビー玉を観察するのは、赤が1、青が0を表す量子ビットの状態を測定することのたとえです。実際の測定は、実験室で物理量を測定することで行われます。
 
-Measurement is essentially asking the qubit what state it’s in, but there’s a caveat: simply the act of measurement makes the qubit settle into either the 0 or 1 states, so you only ever get the answer 0 or 1. But there’s a probability associated with each possible outcome.
+測定は、基本的に量子ビットがどのような状態にあるかを確認することですが、注意点があります。測定という行為は、量子ビットを0か1のどちらかの状態に落ち着かせることになるので、0か1かの答えしか得られないのです。しかし、その結果には必ず確率が付随します。
 
-Even if you happen to know everything about the probabilities beforehand--that is, even if you know the exact superposition state of the qubit before measurement--you cannot predict the outcome of a measurement.
+たとえ確率のすべてを事前に知っていたとしても、つまり、測定前に量子ビットの正確な重ね合わせ状態を知っていたとしても、測定結果を予測することはできないのです。
 
-Essentially:
+基本的には:
 
-> Even if you know everything about the state of a quantum system, it *can* still behave randomly.
+> たとえある量子系の状態をすべて知っていたとしても、量子系はランダムに振る舞う可能性があります。
 {: .prompt-tip }
 
-For instance, you know everything about the state of a Whiskertese marble: it's in an equally weighted (fifty-fifty) superposition. Yet, after measurement, we don't know if it will end up as a red marble or a blue one. That part is random!
+例えば、ウィスカートンのビー玉の状態がすべてわかっているとしましょう。それは、等しい重さ（確率）が50パーセントずつの重ね合わせの状態です。しかし、測定後、それが赤いビー玉となるか、青いビー玉のどちらになるかはわかりません。そこがランダムな部分です。
 
-Quantum physics is probabilistic, which means there is some *uncertainty*. A measurement moves the system from uncertainty to certainty.
+量子物理学は確率論的であり、それは「不確実性」があることを意味します。測定という行為によってはじめて、物理系は不確実から確実へと移行します。
 
-At first glance, it may appear that the benefit of quantum superposition has vanished since you only ever get 0’s and 1’s as your outcomes, no different from classical bits. Enter quantum computing algorithms. 
+一見すると、古典的なビットと同じように、最終的な結果は0と1しか得られないので、量子重ね合わせの利点がなくなってしまったように見えるかもしれません。そこで登場したのが、量子コンピューティングのアルゴリズムです。
 
-An algorithm is basically a series of operations you perform to get a desired result. What a quantum computing algorithm does is manipulate the probabilities, increasing the probability associated with the desired outcome and decreasing all others. [^footnote] In this way, if the probability associated with the desired state hits 1, then that outcome is guaranteed, which means the behavior is no longer random. 
+アルゴリズムとは、基本的に、ある結果を得るために行う一連の操作のことです。量子コンピューティングのアルゴリズムは、確率を操作して、目的の結果に関連する確率を上げ、それ以外の確率を下げるものです。[^footnote] この方法では、目的の状態に関連する確率が1になると、その結果が保証されることになり、その動作はもはやランダムではないことを意味します。
 
-[^footnote]: Quantum operations are carried out by applying what are known as *quantum gates,* logic operations that are the building block of quantum circuits, and analogous to classical logic gates in conventional digital circuits. 
+[^footnote]: 量子演算は「量子ゲート」と呼ばれるものを用いて行います。量子ゲートとは、量子回路の構成要素であり、従来のデジタル回路における古典的な論理ゲートに相当する論理演算を行うものです。
 
-So there you have it. Now that you have an overview of qubits, quantum superposition, and measurements, you know the physics behind the marbles in Whiskerton. 
+ここまでで、量子ビット、量子重ね合わせ、測定の概要をお伝えしました。これでウィスカートンのビー玉の背後にある物理が分かったと思います。 
 
->If you’d like to dive deeper into these concepts and see how Blade’s predicament is related to what is known as Schrödinger’s cat, read on! Otherwise, head on over to the next story: [Chapter 3 - Story - Doorbells](https://quantum-kittens.github.io/posts/CHAPTER-3-Story-Doorbells/)
+>ブレイドの置かれた苦境が、いわゆる「シュレーディンガーの猫」とどのように関係しているのか、これらの概念をより深く掘り下げたい方はこのまま読み進めてください。そうでなければ、次の物語へどうぞ: [第3章 - 物語 - ドアベル](https://quantum-kittens-ja.github.io/posts/CHAPTER-3-Story-Doorbells/)
 {: .prompt-info }
+
 _______
 
-## Mathematical Representation of a Qubit State
 
-Quantum states are mathematically represented by what is known as *Dirac notation*, which makes use of something called a *ket*: $\ket{}$[^fn-nth-1].
+## 量子ビットの状態の数学的表現
 
-[^fn-nth-1]: A ket denotes a mathematical object with certain properties called a *vector*. A qubit can be considered a vector. Two vectors can be combined to form another valid vector. But you don't need to know about vectors to read this text.
+量子状態は、数学的には「ディラック記法」と呼ばれる方法で表現され、ケット: $\ket{}$[^fn-nth-1] と呼ばれる記号を活用します。: $\ket{}$[^fn-nth-1].
 
-This is how an arbitrary qubit state is represented[^fn-nth-2]:
+[^fn-nth-1]: ケットは、*ベクトル*と呼ばれる特定の性質を持つ数学的な物体を表します。量子ビットはベクトルと見なすことができます。2つのベクトルを組み合わせて、別の有効なベクトルを形成することができます。しかし、この文章を読むのにベクトルについて知る必要はありません。
+
+任意の量子ビットの状態は、次のように表現されます。[^fn-nth-2]:
 
 \begin{equation}
 \label{eq:qubit}
 \ket{\psi}=\alpha_{0}\ket{0}+\alpha_{1}\ket{1}
 \end{equation}
 
-[^fn-nth-2]: Disclaimer: This equation is not the complete picture of a qubit; there's a degree of freedom called 'phase' that can be useful for computation but is beyond the scope of this text.
+[^fn-nth-2]: 免責事項：上記式は量子ビットの全体像ではありません。量子ビットにはさらに「位相」という自由度があり、これも計算に有用ですが、この文章の範囲外になっています。
 
-The Greek letter $\psi$, pronounced "sigh", is a symbolic representation of the state. The $\ket{}$ symbol is written, not spoken. When you refer to the qubit, you can voice, "I have a qubit in the state psi,” or write, “I have a qubit in the state  $\ket{\psi}$," after having defined $\ket{\psi}$ in an equation.
+ギリシア文字 $\psi$ は「サイ」と発音し, 量子状態を象徴的に表現したものです。$\ket{}$ 記号は表記として登場しますが、読みとしては特に発声しません。  量子ビットに言及する場合、式で $ket{psi}$ を定義した後、「量子ビットがサイという量子状態にあります」と発声したり「量子状態 $ket{psi}$ 」と記述したりすることが可能です。
 
-Notice that $\psi$ isn't the only thing tucked within a ket. You have $\ket{0}$ and $\ket{1}$ in the equation as well, which are the 0 and 1 states. These are called the *basis states* of the qubits; that is, the possible states a qubit can reduce to after measurement, just as a Whiskertese marble can reduce to a red or a blue.  Since a qubit has *two* basis states, a qubit is a two-level system.
+ケット記号の中に収まっているのは $\psi$ だけではないことに注意してください。0と1の状態である $\ket{0}$ と $\ket{1}$ も方程式に含まれていますね。これらは、量子ビットの *固有状態*と呼ばれ、ウィスカートンのビー玉が赤や青に帰着するように、測定後に量子ビットが帰着する可能性のある状態を指します。 1つの量子ビットが2つの固有状態を持つので、量子ビットは2準位系と呼ばれます。
 
-The plus sign indicates a combination, or a superposition. The parameters $\alpha_{0}$ and $\alpha_{1}$ are called *amplitudes*, and let us know how likely it is the qubit will be in the state $\ket{0}$ or $\ket{1}$ after measurement, where $\alpha$ is the Greek letter, alpha. The subscript of the symbol $\alpha$ is a label to indicate to which basis state it corresponds. 
+プラス記号は組み合わせ、つまり重ね合わせを表します。パラメータ $\alpha_{0}$ と $\alpha_{1}$ は*確率振幅*と呼ばれ、測定後に量子ビットが $\ket{0}$ または $\ket{1}$ の状態になる確率を表します（ $\alpha$ はギリシャ文字のアルファです）。この記号 $\alpha$ の添え字は、どの基底状態に対応するかを示すラベルです。
 
-Mathematically, if we square the amplitudes, we’ll get the probabilities associated with each basis state. So, if you measure a qubit in the state $\ket{\psi}$, you will get the result 0 with a probability $\alpha_{0}^2$, or get the result 1 with a probability $\alpha_{1}^2$. [^fn-nth-3] 
+数学的には、確率振幅を2乗すれば、各基底状態に関連する確率が得られます。つまり、量子ビットを $\ket{\psi}$ の状態で測定すると、確率 $\alpha_{0}^2$ で0、確率 $\alpha_{1}^2$ で1の結果が得られることになります。[^fn-nth-3］ 
 
-[^fn-nth-3]: The superscript 2 indicates a 'square', which means the number is being multiplied by itself. That is, $\alpha_{0}^2=\alpha_{0}*\alpha_{0}$.
+[^fn-nth-3]: 上付き添え字の2は「二乗」を表し、数字が自分自身に掛けられることを意味します。つまり、$\alpha_{0}^2=\alpha_{0}*\alpha_{0}$ のことを言います。
 
-You may rightfully be wondering why these squares are suddenly popping into the picture. It is simply a mathematical convention that reminds us the amplitudes $\alpha_{0}$ and $\alpha_{1}$ may be negative. The squares of each of these amplitudes are probabilities, and probabilities are always positive, as are squares!
+なぜ突然このような四角いものが出てくるのか不思議に思うかもしれません。これは、振幅 $\alpha_{0}$ と $\alpha_{1}$ が負である可能性があることを思い出させる数学的な慣習に過ぎないのです。それぞれの振幅の2乗は確率で、確率は常に正であり、2乗も正なのです。
 
-This means that each quantum state is subject to a constraint. Probability theory has a strict rule: all probabilities should add up to 1, so $\alpha_{0}^2+\alpha_{1}^2=1$ *always*. 
+これは、各量子状態が制約を受けることを意味します。確率論では、すべての確率は足し算で 1 になるという厳格なルールがあるので、*常に $\alpha_{0}^2+\alpha_{1}^2=1$ となります。
 
-Let's look at a specific example. Suppose we have a qubit in the state:
+具体的な例を見てみましょう。量子ビットが下記のようなある状態だとします。
 
 \begin{equation}
 \ket{\psi}=\sqrt{\frac{2}{3}}\ket{0}-\sqrt{\frac{1}{3}}\ket{1}
 \end{equation}
 
-Here, $\alpha_{0}=\sqrt{\frac{2}{3}}$, which means the probability of getting the result 0 after measurement is $\frac{2}{3}$. Similarly for $\alpha_{1}=-\sqrt{\frac{1}{3}}$, and a probability of  $\frac{1}{3}$ associated with result 1. That is, if you have a ton of qubits in this state, and you measure them all, statistically speaking, approximately one third of them would yield the outcome 1. The larger the amplitude, $\alpha$, the higher the probability, and the more likely it is to find the qubit in the associated state after measurement.[^fn-nth-4]
+ここで、 $\alpha_{0}=\sqrt{\frac{2}{3}}$ であり、測定後に結果0を得る確率は $\frac{2}{3}$ です。同様に、$\alpha_{1}=-\sqrt{\frac{1}{3}}$ となり、結果1に関連する確率は $\frac{1}{3}$ となります。つまり、この状態の量子ビットが大量にあり、それらをすべて測定した場合、統計的にはおよそ3分の1が結果 1 をもたらすことになります。振幅が大きい$\alpha$ ほど確率が高くなり、測定後に関連する状態の量子ビットが見つかる可能性が高くなります。[^fn-nth-4]
 
-[^fn-nth-4]: Note for the mathematicians: we refer to $mod(\alpha)$ here.
+[^fn-nth-4]: 数学者のためのメモ：ここでは $mod(\alpha)$ と表記します。
 
-## A Note on Statistics
+## 統計に関する注意点
 
-The thing about qubits is that you cannot determine $\alpha_{0}$ and $\alpha_{1}$ for an arbitrary state $\ket{\psi}$ through measurements--the only way to know exactly what numbers these $\alpha$'s are is to have created the state yourself, or to know the person who created it. This is because a measurement always results in a single outcome: 0 or 1, so no measurement can lead to the knowledge of the $\alpha$'s. If someone else created the state, you can ask them for thousands of qubits in identical states and after thousands of measurements, statistically decipher what the amplitudes and thus the probabilities of the state are. [^fn-nth-5]
+量子ビットの特徴は、任意の状態 $\ket{\psi}$$ の $\alpha_{0}$ と $\alpha_{1}$ を測定で決定できないことで、これらの $\alpha$ の数を正確に知るには、その状態を自分で作ったか、作った人を知っている必要があります。なぜなら、測定の結果は常に1つだからです。0 か 1 であるから、どのような測定も $\alpha$ の知識にはつながりません。もし誰かがその状態を作ったのであれば、同じ状態の量子ビットを何千個も用意してもらい、何千回も測定した後、その状態の振幅、つまり確率が何であるかを統計的に解読することができます。[^fn-nth-5］
 
-[^fn-nth-5]: This is precisely why quantum circuits are run multiple times: to gather statistics. Quantum circuits are quantum computation models that have gate sequences, measurements, and the like.
+[^fn-nth-5]: 量子回路を何度も実行するのは、まさにそのためであり、統計を取るためです。量子回路とは、量子計算のモデルであり、ゲート配列や測定などの演算子が存在します。
 
-However, you don't necessarily need to know what the $\alpha$'s are in order for qubit states to be useful. The beauty of the qubit state lies in how one can change and manipulate $\alpha_{0}$ and $\alpha_{1}$ with quantum gates before measurement. As mentioned earlier, the goal is to boost the probabilities associated with the desired outcome. If the desired outcome is 0,  then the algorithm can be designed to boost $\alpha_{0}$, regardless of what it is. And if $\alpha_{0} = 1$, then the outcome 0 will be guaranteed.
+しかし、量子ビットが有用であるためには、必ずしも $\alpha$ が何であるかを知っている必要はありません。量子ビットの美しさは、測定前に量子ゲートで$alpha_{0}$と$alpha_{1}$を変化させて操作できることにあります。前述のとおり、ゴールは得たい結果に関連する確率を高めることです。もし、望む結果が 0 であれば、それが何であれ、$\alpha_{0}$ を増幅するようにアルゴリズムを設計することができます。また、 $\alpha_{0} = 1$ であれば、結果 0 が保証されることになります。
 
-## Physical Qubits
+## 物理的な量子ビット
 
-As stated earlier, qubit states are mathematical constructs, which make them easier to work with mathematically to develop algorithms and the like without making a statement on the physical system that is used. This is important, because it doesn't matter whether you physically construct qubit states in the lab as, say, electron spins, polarized states of photons, or something else.
+先に述べたように、量子状態は数学的な要素で構成されているため、量子ビットそのものを形づくる物理系に依存することなく、アルゴリズム開発などのために数学的に扱うことが容易になっているのです。これは重要なことで、量子状態を、例えば電子のスピンや光子の偏光状態など、どのような方式で物理的に構築したとしても、同じ数学表現でその状態を表すことができるのです。
 
-Don’t know what electrons or photons are? Let’s digress briefly:
+電子や光子とは何なのでしょうか？わからない人のために、簡単に解説しておきましょう。
 
-> An electron is a negatively charged subatomic particle. It has a property called 'spin' that we needn't discuss in detail. Suffice it to say that the spin of an electron can be $+\frac{1}{2}$ or $-\frac{1}{2}$, which mathematically can be represented as the states $\ket{0}$ and $\ket{1}$.
+> 電子とは、負の電荷を帯びた素粒子です。電子には「スピン」と呼ばれる性質がありますが、ここでは詳しく理解する必要はありません。電子のスピンは $+\frac{1}{2}$ または $-\frac{1}{2}$ であり、数学的には $\ket{0}$ と $\ket{1}$ という状態で表される、ということだけ理解すれば十分でしょう。
 {: .prompt-info }
 
->A photon is the building block of electromagnetic radiation, which includes visible light. Everything that you see is due to these photons hitting your retinae. When photons are *polarized*, they vibrate in a specific direction rather than all directions. In terms of qubits, polarization in the horizontal direction, say, can be represented by $\ket{0}$ and polarization in the vertical direction, say, can be represented by $\ket{1}$. A superposition of the two is possible, and corresponds to the photon vibrating in a direction between vertical and horizontal, analogous to Southeast lying between South and East on a compass.
+
+>光子は、可視光線を含む電磁波の構成要素です。あなたが見ているものはすべて、この光子が網膜に当たることで像を結びます。この光子が「偏光」されると、全方向ではなく、特定の方向に振動するようになります。量子ビットで言うと、例えば横方向の偏光は $\ket{0}$ 、縦方向の偏光は $\ket{1}$ で表すことができます。そしてそれぞれの偏光状態は、重ね合わせが可能であり、光子が垂直方向と水平方向の中間で振動していることに相当します（コンパスの南と東の間にある南東のようなものです）。
 {: .prompt-info }
 
-One important thing to note about qubit states is that they are not stable. Little disturbances in a qubit's environment can reduce it to either $\ket{0}$ or $\ket{1}$: disturbances like heat, vibrations, etc.[^fn-nth-6] And even *that* is unstable; after some time a qubit can jump back into a superposition. It's this little tug of war of states that makes qubits a little tricky to manipulate in the lab--and what keeps the cats of Whiskerton intrigued!
 
-[^fn-nth-6]: This sensitivity of quantum states is one of the obstacles in fabricating stable, perfect physical qubits, and devices with a large number of qubits. But this is an exciting research area with lots of promising progress. 
+量子ビットの状態について注意すべき重要な点は、量子ビットは安定ではないということです。量子ビットは、環境におけるちょっとした乱れ、例えば熱や振動などの乱れによって、 $\ket{0}$ または $\ket{1}$ のどちらかになってしまうのです[^fn-nth-6]。量子ビットを研究室で操作するのが少し厄介なのは、このような状態の綱引きがあるからで、ウィスカートンの猫たちが興味をそそられるのは、そうした量子状態の性質にです！
 
-## Schrödinger's Cat
+[^fn-nth-6]: このような量子状態のもつ繊細さは、安定的に動作する物理量子ビットや、多数の量子ビットを保有するデバイスを構築する上で克服すべき課題の一つです。しかし、この分野は、多くの有望な進展が見られるエキサイティングな研究分野です。
 
-This brings us to Blade in the box with the glitter machine. His predicament is a homage of sorts to a thought experiment by physicist Erwin Schrödinger in 1935[^fn-nth-7].
+## シュレーディンガーの猫
+
+ここで、キラキラマシンと共に箱の中にいる猫のブレイドの話に戻りましょう。彼の苦境は、1935年に物理学者エルヴィン・シュレーディンガーが行った思考実験へのオマージュのようなものです。[^fn-nth-7].
 
 [^fn-nth-7]: Schrödinger, Erwin (November 1935). "Die gegenwärtige Situation in der Quantenmechanik (The present situation in quantum mechanics)". Naturwissenschaften. 23 (48): 807-812.
 
-Qubits are two-level systems and have two basis states, but there are other quantum particles and systems that can have even more. Yet all of these systems, qubits and beyond, adhere to the same rule: upon measurement, the outcome is only one out of all the possibilities. 
+量子ビットは２準位系であり、2つの基底状態を持つが、それ以上の基底状態を持つ量子や量子システムも存在します。しかし、量子ビットを含むこれらの系はすべて、測定時に、すべての可能性の中から1つだけ結果を出すという点では、同じ原理に基づいています。
 
-No one really knows why this happens. One possible explanation is the Copenhagen interpretation of quantum mechanics, in which the act of measurement itself collapses all possibilities to a single one. In 1935, physicist Erwin Schrödinger published a paper that outlined his famous thought experiment as a push-back to this interpretation, by hypothetically extrapolating quantum effects on a microscopic level to an everyday macroscopic object: a cat.
+なぜ、このようなことが起こるのか、本当のところは誰も知りません。1つ考えられるのは、量子力学のコペンハーゲン解釈と呼ばれる考えです。この解釈では、測定という行為自体が、あらゆる可能性を1つに縮減してしまいます。1935年、物理学者エルヴィン・シュレーディンガーは、この解釈への反証として、ミクロの世界の量子効果をマクロの世界である猫に外挿するという有名な思考実験を論文で発表しました。
 
-In the original thought experiment, a radioactive substance is used instead of a qubit (or a Whiskertese marble). Radioactive substances decay according to probabilities, just like a qubit reduces to a certain state according to probabilities.
+本来の思考実験では、量子ビット（あるいはウィスカートンのビー玉）の代わりに放射性物質が使われます。放射性物質は、量子ビットが確率に従ってある状態に還元されるのと同じように、確率に従って崩壊します。
 
-A cat is placed in a box with a radioactive substance that is linked to a vial of poison. If any one of the atoms decays, then the vial shatters, poisoning the cat. Thus, the state of the cat is coupled with that of the poison system, which is governed by the probability that at least one atom will decay. In this way, before the box is opened, the cat can be considered to be both dead or alive, because each of the possibilities is likely. That is, the cat's reality is undetermined prior to the opening of the box. 
+毒薬の入った瓶と連動した放射性物質を入れた箱の中に猫を入れます。もし放射性原子の1つでも崩壊すれば、毒薬瓶は粉々になり、結果として猫は毒殺されてしまいます。このように、猫の状態は、少なくとも1つの原子が崩壊する確率に支配される毒物系の状態と連動しているのです。このとき、箱を開けるまでの間は、猫は死んでいるとも生きているとも考えられます。つまり、箱が開けられる前は、猫の状態は未確定です。
 
-Schrödinger argued that this is a 'ridiculous case' and that one can't really believe that before one opens the box the cat is in a superposition of dead and alive. He was right, of course. This scenario can't be considered *truly* quantum. The cat isn't a quantum particle, for one. So while the cat isn't actually in a superposition of dead and alive, the thought experiment at the very least demonstrates a probabilistic system.
+シュレーディンガーは、これは「ばかげた話」として、箱を開ける前に猫が死んでいるのと生きているのとが重ね合わされた状態にあるなどとは、とても信じられないことだと主張したのでした。もちろん、彼の言う通りです。この思考実験の前提は、真に量子的とは言えません。なぜなら猫は量子と同一ではないのですから。この思考実験は、猫が生死をさまよっている話なのではなく、あくまでも確率的なシステムについて説明しようとするものです。
 
-This thought experiment has fast become one of the most recognized iconographies of quantum phenomenon in popular culture, and naturally had to make an appearance in Whiskerton. With glitter, of course, because there's no reason to get morbid in such a quaint little town. Note that Schrödinger didn't actually poison cats--he merely thought about it!
+いずれにせよ、この思考実験は、大衆文化における量子現象の最も認知された図像のひとつとなり、当然ウィスカートンにも登場することになりました。もちろん、このような趣のある小さな町に毒々しい話はにつかわしくありませんから、ここはきらびやかに。なお、シュレーディンガーは単に思考実験としてこうした喩えを思いついただけで、猫に実際に毒を盛ったりすることはありませんでしたので、ご安心ください。
 
-Now, there’s one more curious aspect to this thought experiment: you could say that the state of the cat is *entangled* with that of the radioactive substance. 
+さて、この思考実験にはもう一つ不思議な点があります。それは、猫の状態が放射性物質の状態と*もつれ*状態にあると言えることです。
 
-Quantum entanglement is actually our next stop! Let’s hop to it: **[Next: Chapter 3 - Story - Doorbells](https://quantum-kittens.github.io/posts/CHAPTER-3-Story-Doorbells/)**
+量子もつれは、われわれの次の目的地です! さっそく行ってみましょう。「第3章 - 物語 - 呼び鈴」へ。: **[ 第3章 - 物語 - 呼び鈴](https://quantum-kittens-ja.github.io/posts/CHAPTER-3-Story-Doorbells/)**
 
 _____________________________
 
