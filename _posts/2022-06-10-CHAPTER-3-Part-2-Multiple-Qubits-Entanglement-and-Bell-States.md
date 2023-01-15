@@ -1,74 +1,81 @@
 ---
-title: 'Chapter 3 Part 2 - Commentary - Multiple Qubits, Entanglement, and Bell States'
+title: '第３章 - 解説 - 複数量子ビット, もつれ, ベル状態について'
 math: true
 ---
 
 
-There isn’t much you can do with a single classical bit. Information processing and algorithms usually require more units of information. For instance, down at the machine level, an image on your social media feed is not represented by a single bit. It is represented by *many* bits, many 0’s and 1’s, long strings of bits, and it is those bit strings that are transmitted across the internet and processed by your devices.
+古典的なビット一つができることはあまりありません。情報処理やアルゴリズムには、通常、より多くの情報単位が必要です。例えば、あなたがソーシャルメディアにアップする画像は1ビットで表現できません。多くの0と1の長いビット列で表現され、そのビット列がインターネットを通じて送信され、あなたのデバイスで処理されるのです。 
 
-In a similar fashion, there isn’t much you can do with a single qubit, no matter how fancy a qubit may seem. In fact, the potential advantage of quantum computing over classical computing in certain contexts lies in being able to one day create processors with hundreds and maybe thousands of stable, perfect qubits.
+それと同じように、量子ビットがどんなに革新的なものに見えても、1つの量子ビットでできることはそれほど多くはありません。実際、量子コンピューターが古典的なコンピューターより優位に立てるのは、安定したエラーのない量子ビットを何百、何千と持つプロセッサを作れるようになってからです。
 
-Therefore, most quantum computing protocols involve more than one qubit, the way the doorbells of Whiskerton involve more than one marble. Granted, the doorbells of Whiskerton are still very simple quantum systems with only two marbles, whereas some of the algorithms designed for future quantum computers involve loads more. Nonetheless, these doorbells illustrate something that even more complex protocols make use of: a quantum phenomenon that has no analog in the classical world, *quantum entanglement*.
+したがって、量子コンピューターのプロトコルは、ウィスカートンの玄関の呼び鈴がビー玉を2個以上使っているように、2個以上の量子ビットを使うものがほとんどである。確かに、ウィスカートンのドアベルはビー玉が2つしかない非常に単純な量子システムだが、将来の量子コンピュータのアルゴリズムには、それ以上のビー玉が必要なものもある。しかし、このドアベルは、より複雑なプロトコルが利用する、古典的世界では類似点のない量子現象「量子もつれ」を示している。 
 
-## What is Quantum Entanglement?
+## 量子もつれとは何か？ 
 
-Quantum entanglement describes a peculiar connection or relationship between quantum systems. If two quantum systems are entangled, they are connected in such a way that their states cannot be described independently, and performing measurements on one system will affect the other, even if the second system isn’t nearby. 
+量子もつれは、量子系間の特異な相関関係をあらわします。2つの量子系がもつれた場合、それらの状態は独立して記述することができないような形で存在し、一方の量子で測定を行うと、たとえもう一方の量子が近くになくても、瞬時に影響し状態が確定します。
 
-In essence, the following is possible in the quantum world:
+つまり、量子の世界では次のようなことが可能になります：
 
-> Even if two qubits (or quantum systems) are too far apart to influence each other, they can still be correlated in such a way that tampering with one immediately affects the other.
+> 2つの量子ビット（または量子系）が互いに影響を及ぼせないほど遠く離れていても、一方を観察するともう一方に直ちに影響を及ぼすような相関関係を持つことがあります。 
 {: .prompt-tip }
 
-The two marbles in a Whiskertese doorbell are entangled. Remember that if one turns red, the second one does as well, even though the two are in separate boxes. No one needs to look directly at the second marble in order for it to reduce to a single color.  
 
-This entanglement isn’t quite like the correlations we see in our everyday lives. In our classical world, if you have two marbles in an opaque bag, one red and one blue, and you pull out the blue one, you would know immediately that the red one was still in the bag. That’s classical correlation, the type of correlation we experience on the daily. 
+ウィスカートンの呼び鈴を構成する2つのビー玉はもつれ状態にあります。１つ目が赤くなると、２つ目のビー玉も別の箱に入っていても同じように赤くなることを覚えておいてください。２つ目のビー玉が一色に定まるためには、２つ目のビー玉を直接見る必要はありません。
 
-However, quantum entanglement doesn’t behave like classical correlations. There are nuances to it that don’t translate to our everyday experience. For one, if the marbles were Whiskertese marbles, then they wouldn’t be a single color in the first place. The marble you pull out of the bag would be in a superposition until you looked at it. Only once the marble in your hand reduces to a single color would the marble in the bag change, even if the bag was taken far away from you. [^fn-nth-1]
+この「量子もつれ」は、私たちが日常生活で目にする相関関係とは全く異なるものです。古典的な世界では、不透明な袋に赤と青の2つのビー玉が入っていて、青い方を取り出すと、赤い方がまだ袋の中にあることがすぐにわかるはずです。これが古典的な相関関係であり、私たちが日常的に体験している相関関係です。
 
-[^fn-nth-1]: There are other nuances to entanglement as well, and two quantum systems that are very, very far apart must also be what is known as *non-local* to influence one another, but those are explorations for another day.
 
-Since we’re talking about two entities immediately influencing one another despite distance between them, at this point you may rightfully wonder: does this mean we can send information faster than light? Unfortunately, the answer is no.
+しかし、量子もつれは、古典的な相関関係とは異なる振る舞いをします。私たちが日常的に経験しない特徴があるのです。たとえば、ビー玉がウイスカートンのビー玉であれば、そもそも一色にはなりません。袋から取り出したビー玉は、見るまでは重ね合わせの状態になっているはずです。手の中のビー玉が単一色に還元されて初めて、袋の中のビー玉は、たとえ遠くへ持っていかれても変化するのです。[^fn-nth-1] 
 
-The catch is that simply performing any old type of measurement won’t work—yes, there are different *types* of measurements! The varying types of measurements are beyond the scope of the current text, but suffice it to say that if you and a friend who lives far away share an entangled pair, then the type of measurement you perform on your part of the pair must be conveyed to your friend somehow. If your friend doesn’t know which type of measurement to perform on their part, they won’t be able to ‘see’ the expected result! So some sort of communication must take place, say, through a telephone call. Which…cannot happen faster than light.
+[^fn-nth-1]: もつれには他にも特徴があり、非常に離れた2つの量子系が互いに影響し合うには、いわゆる非局所的でなければなりませんが、それはまた別の日に探求することにしましょう。 
 
->If you’d like to dive a little deeper into quantum entanglement, read on! Otherwise, head on over to the next page: [This is Not the End](https://quantum-kittens.github.io/posts/This-is-not-the-end/).
+また、あなたはここで不思議に思っているかもしれません。二つの系が距離にかかわらず瞬時に影響しあうということは、つまり、光よりも速く情報を送れるということなのだろうか？残念ながら、答えは「いいえ」です。 
+
+量子の状態を観測する際、通常の測定を行うだけではうまくいきません。そう、測定と一口にいっても様々な種類があります！測定の種類については本文の範囲外になりますが、もしあなたと遠くに住む友人がもつれた量子ペアを共有しているならば、あなたが自分のペアで行う測定の種類について、何らかの方法で友人に伝えなければならない、とだけ理解しておけばここでは十分です。もし、あなたの友人が、どのような測定を行うべきかを知らなければ、期待される結果を「見る」ことはできません。だから、何らかの方法で、例えば電話で伝える必要があります。ただし、光より速いスピードの伝達はできません。
+
+>量子もつれについてもう少し深く知りたい方は、こちらをお読みください。それ以外の方は、次のページに進んでください。: [This is Not the End](https://quantum-kittens.github.io/posts/This-is-not-the-end/).
 {: .prompt-info }
+
 
 _______
 
-## Mathematical Representation of Multi-Qubit States
+## 複数量子ビット状態の数学的表現
 
-Multiple qubit states are represented in a similar manner to single qubit states. We’ll focus on two-qubit states since Whiskerton doorbells have two qubits, but the representation holds for even higher numbers.
+複数量子ビットの状態は、単一量子ビットの状態と同様の方法で表現されます。ウイスカートンの呼び鈴は2つの量子ビットを持つので、2量子ビットの状態に焦点を当てますが、ここで習う表現はより多くの量子ビットにも拡張できます。 
 
-
-Recall the equation for an arbitrary single qubit state from [Chapter 2](https://quantum-kittens.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/):
+[第2章 - 解説 - 量子ビット, 重ね合わせ, 測定](https://quantum-kittens-ja.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/)の任意の1量子ビットの状態に関する方程式を思い出してください。 :
 
 
 \begin{equation}
 \ket{\psi}=\alpha_{0}\ket{0}+\alpha_{1}\ket{1}
 \end{equation}
 
-In this equation, the basis states are analogous to the two values a classical bit can have: 0 and 1. And a qubit can be in a superposition of the two basis states. 
+この式において、基底状態は古典的なビットが持ちうる2つの値と同義です。そして、量子ビットはこの2つの基底状態の重ね合わせの状態になることができます。 
 
-In order to understand how to represent a two-qubit state, let’s look at all the possible values of two classical bits. Two bits, combined, can have one of four values: 00, 01, 10, or 11. Just like the single qubit case, these four values correspond to four basis states. Two qubits can be in one of these four states or they can be in a superposition of these states! Therefore, an arbitrary two-qubit state can be represented by the following equation:
+2量子ビットの状態を表現する方法を理解するために、古典的な2ビットの取りうるすべての値を見てみましょう。2つのビットを組み合わせると、4つの値 00、01、10、11 のうちの1つを持つことができます。1量子ビットの場合と同じように、この4つの値は4つの基底状態に対応します。2つの量子ビットは、これら4つの状態のうちの1つになることもあれば、これらの状態の重ね合わせになることもあります。したがって、任意の2量子ビットの状態は、次の式で表すことができます。 
 
 \begin{equation}
 \ket{\psi}=\alpha_{00}\ket{00}+\alpha_{01}\ket{01}+\alpha_{10}\ket{10}+\alpha_{11}\ket{11}
 \end{equation}
 
-Just like the equation for a single qubit, $\alpha_{00}^2$ is the probability that the two qubits will yield the outcome 00 after measurement. Similarly for the other three basis states. Once again, the laws of probability dictate that $\alpha_{00}^2+\alpha_{01}^2+\alpha_{10}^2+\alpha_{11}^2=1$. 
+単一量子ビットの式と同じように、 $\alpha_{00}^2$ は2つの量子ビットが測定後に 00 という結果をもたらす確率です。他の3つの基底状態も同様です。確率の法則にもとづいて、２つの量子ビットの量子状態は以下のように記述できます。
+$\alpha_{00}^2+\alpha_{01}^2+\alpha_{10}^2+\alpha_{11}^2=1$
 
-## Entanglement and Bell States
 
-Simply having two qubits in hand is not enough to consider them entangled. The qubits have to be in specific states in order to be considered entangled, which means there are certain $\alpha$ values that imply entanglement. 
+## 量子もつれとベル状態
 
-For instance, in order to represent the entangled state of a Whiskertese doorbell, $\alpha_{01}=\alpha_{10}=0$ and the other two, $\alpha_{00}$ and $\alpha_{11}$, must be equal with their squares adding up to 1.
+単に2つの量子ビットが手元にあるだけでは、それらがもつれ状態にあると見なすことはできません。量子ビットがもつれるには、特定の状態にあることが必要で、つまり、もつれを意味する特定の $\alpha$ 値が存在することになります。
 
-Let’s break this down. In a Whiskertese doorbell, the marbles become the same color after the outer marble is directly observed. If the marbles can only become the same color, then only two possible states are allowed: $\ket{red, red}$ and $\ket{blue, blue}$. The first position in each $\ket{}$ represents the outer marble, and the second position represents the inner marble. The state $\ket{red, blue}$ is illegal and can never happen within the doorbell apparatus, and so, the probability associated with it is zero. Same for $\ket{blue, red}$.
+例えば、ウイスカートンの呼び鈴のもつれ状態は、 $\alpha_{01}=\alpha_{10}=0$ と表現することができ、 $\alpha_{00}$ と $\alpha_{11}$ は、それらの二乗を足すと１になる必要があります。
 
-This means the only non-zero probabilities are the ones associated with $\ket{red, red}$ and $\ket{blue, blue}$, and since Whiskertese marbles have a 50-50 chance of becoming either color, the two probabilities must be equal.
 
-So here is what that state looks like:
+細かくみていきましょう。ウイスカートン式呼び鈴は、外のビー玉を直接観察すると、内側のビー玉も同じ色になりました。もし、ビー玉が同じ色にしかならないのであれば、2つの状態しかありえないことになる。 $\ket{red, red}$ と $\ket{blue, blue}$ です。各 $\ket{}$ の1つ目の位置は外側のビー玉を表し、2つ目の位置は内側のビー玉を表します。状態 $\ket{red, blue}$ は違法であり、呼び鈴装置内では絶対に起こりえないので、これに伴う確率は 0  となります。 $\ket{blue, red}$ の場合も同様です。
+
+つまり、0でない確率は $\ket{red, red}$ と $\ket{blue, blue}$ だけであり、ウイスカートンのビー玉がどちらの色になるかは半々の確率なので、この2つの確率は等しくなければなりません。 
+
+
+これを記述すると以下のようになります:
+
 
 
 \begin{equation}
@@ -76,21 +83,21 @@ So here is what that state looks like:
 \label{eq:bellstate}
 \end{equation}
 
-The marbles are in what is known as a "Bell state”—named after the physicist John S. Bell, and *not* because this is the state of the doorbells in Whiskerton. The above equation is what this particular Bell state looks like mathematically, where $\phi^+$ is a naming convention. [^fn-nth-2]
+このビー玉の状態は「ベル状態」と呼ばれるものです。ウイスカートンの「ドアベル」の特徴とは関係なく、物理学者ジョン・S・ベル氏にちなんで名付けられました。上の式は、この特定のベル状態が数学的にどのように見えるかを示したもので、 $\phi^+$ は命名規則になります。 [^fn-nth-2]
 
-[^fn-nth-2]: This is what the Bell state looks like mathematically in the *computational basis*, which is a reference to the type of measurement required to ‘see’ the outcome. There are different bases associated with different types of measurements.
+[^fn-nth-2]: これは、ベル状態が数学的に*計算基底*でどのように見えるかであり、結果を「見る」ために必要な測定の種類を示すものです。異なる種類の測定には、それぞれ対する異なる基底が存在します。
 
-As you can see, there's an equal probability for either of the two basis states $\ket{00},\ket{11}$ to occur, before the first qubit is measured. But when the first qubit becomes either $\ket{0}$ or $\ket{1}$, then the second one has no choice but to follow. In this manner the outcomes are correlated, and the qubits are entangled. 
+このように、最初の量子ビットを測定する前に、2つの基底状態 $\ket{00},\ket{11}$ のどちらかが発生する確率は等しくなっているのです。しかし、1番目の量子ビットが $\ket{0}$ or $\ket{1}$ のどちらかになると、2番目の量子ビットはそれに従わざるをえなくなります。このようにして、結果が相関し、量子ビットがもつれ状態にあります。
 
-At this point it is important to note that this isn't the only Bell state; there are others. For instance, one of the other Bell states involves the second qubit always becoming the *opposite* of what the first becomes! But that's not how the entangled marbles of Whiskerton's doorbells behave.
+ここで重要なのは、これが唯一のベル状態ではなく、他のベル状態も損じするということです。例えば、他のベル状態の1つは、2番目の量子ビットが常に1番目の量子ビットと*逆の*状態になるパターンだったりします。たまたま、ウィスカートンの呼び鈴のもつれたビー玉は同じ状態になるパターンであるに過ぎません。
 
-These two-qubit pairs that are in Bell states are called EPR pairs, after physicists Albert Einstein, Boris Podolsky, and Nathan Rosen. EPR pairs and entanglement are a valuable resource for theoretical and potential quantum computing applications like quantum cryptography, superdense coding, and quantum teleportation. [^fn-nth-3]
+このようなベル状態の2量子ビットのペアは、物理学者アルバート・アインシュタイン、ボリス・ポドルスキー、ネイサン・ローゼンの名前をとって「EPRペア」と呼ばれています。EPRペアと量子もつれは、量子暗号、超密度符号、量子テレポーテーションなどの理論的および潜在的な量子コンピューティング応用のための貴重な資源です。[^fn-nth-3］ 
 
-[^fn-nth-3]: Teleportation in this context is not the teleportation you find in Star Trek. We plan to explore this application in a future story!
+[^fn-nth-3]: ここで登場するテレポーテーションとは、「スタートレック」に登場するような瞬間移動のそれとは違います。テレポーテーションの応用は、今後の物語で探求してく予定です。
  
-## Quick Note on Physical Entangled Qubits
+## 物理的にもつれ状態にある量子ビットに関する備考
  
-Physically constructing entangled qubits in the lab depends on what you use for qubits. For instance, two photons from a single source, generated in a specific manner, may emerge entangled. There's no single universal 'entangler' the way there is in Whiskerton. And, more accurately, no one actually calls these sources 'entanglers'! Well, apart from cats.
+実験室で量子ビットを物理的にもつれ状態にする方法は、量子ビットをどういう方法で実装するかによって決まります。例えば、1つの光源から特定の方法で生成された2つの光子が、もつれた状態で出現することがあります。ウィスカートンにあるような単一の普遍的な「エンタングラー」は存在しません。また現実には、これらの光源を「エンタングラー」と呼ぶ人はまずいないでしょう。まあ、ネコは別として。 
  
 _____________________________
 
