@@ -1,91 +1,91 @@
 ---
-title: 'Chapter 3 - Story - Doorbells'
+title: '第3章 - 物語 - 呼び鈴'
 ---
 
 
+ウィスカートンの町猫たちは、不確実性を楽しむ一方で、自分たちの癖や傾向をよく知っていて、好みにはかなりうるさいのでした。たとえばアーリアは、硬い枕や紙の束のような、スポンジのような感触の日光浴スポットを好みました。自分の基準に合わない場合は、悲痛なため息をつくのでした。モーグリというバードウォッチングに熱心な猫については、彼が鳥の観察中に周囲におしゃべりをする人がいようものなら、その者に向かって金切り声をあげるほどでした。反面、猫のポーは鳥を観察しているときに、話しかけない者に向かって逆に不満をぶつけるのでした。
 
+ルナの変わった癖は、一日の始まりに、彼女を魅了する何か、退屈をしのぐ何か、彼女を愉快にさせる何かから始めることでした。それは往々にして（夜中に散歩している猫を除いて）知らない間に模様替えをするウィスカートンの町を朝散策しながら、変わった様子一つひとつを見つけることを意味していました。
 
-While the townscats of Whiskerton delighted in uncertainty, they were privy to their own quirks and inclinations, and rather finicky about their preferences. Arya, for instance, preferred sunbathing spots with a twinge of sponginess to them, like a hard pillow or a stack of papers. If a spot didn’t meet her standards, she’d dispel a tragic sigh. There was a cat named Mowgli who took his bird watching seriously—he was known to yawp at anyone who dared talk while his eyes followed the feathered creatures’ movements. Another cat, Poh, would yawp at anyone who *didn’t* talk to him while he watched birds.
+毎朝、朝食の前に、彼女にとっては食事よりも大切なものがあったので、ルナは変化を発見するために通りを急ぎます。好奇心にうばわれ、無駄にスピードを出して走り回る彼女は、屋台や朝の散歩中の猫、郵便配達やさんなどにぶつかり、罵声を浴びせられることもしばしばでした。 
 
-Luna’s particular quirk was to begin each day with something that captivated her, something that kept boredom at bay, something that made her wiggle with glee. On most days, that meant darting about the town to identify changes made overnight; the town of Whiskerton would occasionally rearrange itself at night, unbeknownst to anyone until the morning after, save for the occasional cat on a midnight stroll. 
+しかしある日の朝、ルナの期待に反して、道や木や岩や草はぴたりとも動かず、町にはひとつの変化もみあたりません。このままでは気が済まないルナは、そこで次の手を打ちます。 そう、イタズラに興じることです。
 
-Each morning before breakfast—since to her there were more important things than food—Luna would zoom through the streets to discover changes. Blinded by curiosity and sprinting far more quickly than she had any business to, she’d bump into hawker carts and morning walkers and mail deliverers, drawing curses in her wake.
+そして、いついかなる時代もイタズラの定番といえば、ドアの呼び鈴を鳴らすことでした。
 
-On this specific morning, Luna found, much to her chagrin, that the streets and trees and rocks and grass had decided to stay exactly where they were. Not one to stay chagrined or bored or otherwise unoccupied for long, she turned to her next favorite thing: pranks.
+なかでもビビリ猫として有名な、ブレイドの玄関の呼び鈴を鳴らすのが一番でした。誰かが玄関の呼び鈴を鳴らすと、ブレイドは天井にぶつかるほど高く跳び上がるので、コテージのどこからか「バン！」という音が聞こえるのでした。ルナと仲間の子猫たちはくすくす笑い、ブレイドがドアを開ける前に逃げ出します。
 
-And one prank that never got old was ringing doorbells.
-
-Specifically, ringing Blade’s doorbell, as he was a cat who startled easily. Whenever someone rang his doorbell, a *bang!* could be heard from somewhere within his cottage, for he’d leap high enough to hit the ceiling. Luna, along with any kittens accompanying her, would giggle, then bolt before Blade opened the door.
-
-Now, it wasn’t only Blade’s skittishness that made ringing his doorbell interesting. A Whiskertese doorbell was itself an entertaining contraption, being more extraordinary than an ordinary doorbell. The contraption had been Arya’s idea—she was clever at that sort of thing—and Blade, as her best friend, was clever at bringing Arya’s ideas to life.
+さて、呼び鈴を鳴らすのが面白いのは、ブレイドのおどおどした性格だけには依りません。ウィスカートンの呼び鈴は、普通の呼び鈴とは違って、それ自体が面白い仕掛けになっていました。この仕掛けはアーリヤのアイデアで、彼女はその種のことに長けており、ブレイドは彼女の親友として、アーリアのアイデアを実現することに長けていたのです。
 
 ![](/assets/imgs/Doorbell_Animation.png){: style="max-width: 300px" .right}  
 
-The Whiskertese doorbells were fabricated like so: two marbles were connected by something called an *entangler*, which, true to its name, entangled the marbles. This meant if someone looked directly at one marble, then the second marble would immediately be affected—without anyone having looked at it! Each of the two marbles would be in a superposition of red and blue, but once someone observed one of them, the two marbles would turn the same color: either both red, or both blue.
+ウィスカートンの呼び鈴には 2つのビー玉が「エンタングラー」と呼ばれる装置につながっており、ビー玉がもつれた状態になる仕掛けになっていました。つまり、誰かが片方のビー玉を直接見ると、誰も見ていなくても、すぐにもう片方のビー玉が影響を受けるのです！2つのビー玉は、それぞれ赤と青の重ね合わせの状態にありますが、誰かがどちらかを観察すると、2つのビー玉は同じ色に変わるのでした。
 
-An entangler was embedded into the front door of each home, and the two marbles were placed in compartments that hung on either side. The compartment on the outside had a peephole through which a visiting cat could observe the marble. This act would immediately affect its counterpart on the other side of the door. The second marble was connected to a sound box so that whenever it became a single color, the sound would go off.
+この「エンタングラー」は各家の玄関にとりつけられ、2つのビー玉は扉の外側と内側に吊るされている収納箱にそれぞれ入っていました。外の箱には覗き穴があり、訪問した猫はビー玉をその穴から観察することができました。この観察行為は、すぐに扉の内側のビー玉にも影響を与えます。内側のビー玉は、サウンドボックスに接続されており、ビー玉がひとつの色に定まると音が鳴るようになっていました。
 
-The adult townscats loved their doorbells, but the kittens loved them even more. Luna, especially, relished in how she could immediately change the state of a marble without having looked at it by gazing at another marble. And in how that change released a chiming sound to summon a cottage’s occupant.
+大人の猫たちはもちろんこの呼び鈴を愛用していましたが、子猫たちは大人たち以上にこの呼び鈴が好きでした。特にルナは、外のビー玉を見つめることで、家のなかのビー玉の状態をすぐに変えられることを喜んでいた。そして、その変化でチャイムが鳴り、コテージの住人を呼び出すことができることに。
 
-With doorbells and Blade and marvelous sounds foremost in her mind, Luna went in search of an accomplice. She happened upon Soya, a timid but curious black kitten with a white diamond on her chest, who adored rustling plastic and reclining on high perches. Soya was attempting to climb her way up the side of Town Hall for a bit of reclining when Luna found her.
+呼び鈴、驚くブレイドの姿、すてきなチャイム音が大好きなルナは、早速共犯者を探しに出かけました。彼女は臆病だが好奇心旺盛で、胸に白いダイヤのついた黒い子猫、ソヤに出会いました。ソヤは、ビニールが揺れる音と高いところにある寝床が大好きなのです。ルナが見つけたとき、ソヤは市庁舎の壁によじ登ってお気に入りの寝床に向かうところでした。 
 
-“Hihihi,” Luna called. “Up for some mischief, Soya?” Soya, being a kitten, was of course always up for some mischief. Not moments later, the two scurried towards a certain buildercat’s home. 
+「ねえねえ」とルナが声をかけました。「いたずらしない？」子猫のソヤは、もちろんいつでもいたずら好き。そして、2匹はある大工猫の家に向かいました。 
 
-Unsuspecting Blade was in his kitchen, staring intently at a suspicious spot on his ceiling. He clutched a small parcel in a paw because he was supposed to be delivering a custom build to one of the townscats, but he couldn’t tear his eyes away from that spot. He just *had* to figure out what it was!
+そんな状況には無頓着なブレイドは台所で、天井の怪しげなシミをじっと見つめていました。彼は前足で小さな小包を握りしめています。町民猫の一匹に特注品を届けることになっていたからでした。ただ、彼はそのシミのような跡から目を離すことができませんでした。彼はそのシミが気になって気になって仕方がありませんでした。
 
-Meanwhile, on the front porch, Luna nudged Soya to peer inside the bell compartment. The marble within turned blue, as did the marble on the other side of the door, and the doorbell rang. 
+一方、玄関先では、ルナがソヤをそそのかして、ソヤが呼び鈴の箱の中を覗き込みました。中のビー玉が青くなり、ドアの向こう側のビー玉も青くなり、呼び鈴のチャイムが鳴ります。 
 
-The sound was, unsurprisingly, accompanied by a loud *bang!* and a “Twisted yarn!” which launched the kittens into fits of giggles.
+呼び鈴のチャイムの音につづいて、間髪いれずに「バン！」という大きな音、そして「ねじれ糸め!」」という罵声が響くと、子猫たちはお腹をかかえて笑い出しました。
 
-![](/assets/imgs/Ladybug_ceiling.png){: style="max-width: 200px" .left} True to his nature, Blade had leapt reflexively at the sudden peal, bopping his head on the ceiling. Unbeknownst to him, the suspicious spot had transferred itself to his forehead in the process. Transferred itself, because the suspicious spot was in reality a ladybug who had, in the spur of the moment, decided to test whether perching on a cat’s head was more fun than perching on a ceiling.
+![](/assets/imgs/Ladybug_ceiling.png){: style="max-width: 200px" .left} 突然の音に、ブレイドは予想通りに反射的に飛び上がり、天井に頭をぶつけていました。その時、彼の知らないうちに、さきほどまでじっと見つめていたあの怪しいシミが額に移っていた。その正体はテントウムシで、天井に止まるより猫の額に止まった方が楽しいかどうか、咄嗟に試したのでした。 
 
-Blade glared and grumbled—first at bopping his head and then at the now-blank ceiling—before heading to the front door.
+ブレイドは、天井に頭をぶつけたこと、そしてそのあと不意にシミが消えてしまった天井をみて、ぶつくさ言いながら、玄関に向かいました。 
  
-When he opened the door to an empty porch, he groaned. *Infernal kittens, I bet it was them. Disturbing my suspicious spot scrutinization. Now I know how Mowgli feels when he watches birds.*
+ドアを開けたとき玄関ポーチに誰もいないのをみて、彼はうらみがましい声で「あのイタズラ子猫どもに違いない。怪しいシミの調査中によくも邪魔してくれたものだ。これでモーグリが鳥を観察するときの気持ちがわかったよ。 」
 
-From where they hid behind a bush, Luna and Soya shared gleeful whispers and watched as the buildercat glared at the street before trudging back inside. Ringing Blade's doorbell had been so much fun, they decided to have another go of it.
+ルナとソヤは茂みに隠れて嬉しそうにヒソヒソ声で言葉を交わしつつ、大工猫のブレイドが通りを睨みつけてから、足早に家の中に戻っていくのを見ていました。ブレイドの家の呼び鈴を鳴らすのはとても楽しかったので、もう一回やってみようということになりました。
 
-"Let's count to five and then ring again,” Luna said. Entanglers always took a few seconds to re-entangle the marbles once set off.
+「5つ数えて、もう一度鳴らしてみましょう」と、ルナが言いました。エンタングラーは、一度鳴らしたビー玉をリセットするのに、いつも数秒かかるのです。 
 	
-Soya nodded, and began to count: "One."
+ソヤは頷きながら、数を数え始めました。「いち」
 	
-"Two," said Luna.
 	
-"Eight."
+「に」　とルナ.
 	
-"Butterfly!”
+「はち」
 	
-"Where?"
+「チョウチョ！」
 	
-"There."
+「え、どこ？」
 	
-"Eee! Catch it, catch it! Left. No, right! Rightleft!” 
+「そら捕まえて、捕まえて!　左、右！ううん、右左！」
 
 
 ![](/assets/imgs/Soya_Luna_Full_Illustration.png){: style="max-width: 500px"}
 	
 
-Luna attempted to snatch a glimmering butterfly from the air, Soya contributing unhelpful albeit enthusiastic remarks. They spent a few breezy moments like this before Luna remembered why they were there.
+ルナは空中で光る蝶を捕まえようとし、ソヤはあまり助けにならないかけ声を熱心にかけています。しばらくそんな状態を続いてから、ルナははっと我に返って、なぜ自分たちがここにいるのか、その理由を思い起こした。 
 	
-"Wait,” Luna said. “Let's ring the bell first and then catch it?” 
+「待って 、」とルナが言いました。「蝶を捕まえるのは、呼び鈴を鳴らしてからにしない？」
 	
-Soya saluted.
+ソヤは了解とばかりに手で敬礼の仕草をしました。
 	
-They rang the doorbell once more; this time it was Luna who peered into the peephole. The marble turned red, and the ensuing *bang!* they heard from within delighted them so fiercely they forgot all about the butterfly.
-	
-The ladybug, peeved by the sudden jolt, hopped back to the ceiling, concluding that cat heads were decidedly *not* ideal for perching after all. But Blade did not see the suspicious spot reappear above him, for he barreled to the front door, furious. 
-	
-He flung open the door, unsurprised to find no one there, and yowled into the mid-morning sunshine: “I know it’s you, Luna! You and whichever kittens you’ve roped into bothering me. Leave me alone or I’ll… I’ll…” he glanced at the parcel still clutched in his paw. “I’ll make you run an errand!”
-	
-There was no answer, though he hadn’t really been expecting one. But he had a plan.
+今度はルナが覗き穴をのぞき込みました。ビー玉が赤くなり、扉の内側から再び聞こえてきた「バーン！」という音に、二人は蝶のこともすっかり忘れて大喜びします 
+｀｀
 
-He pretended, with inimitable dramatic flair, to close the door. He left it a smidge open, just enough for him to peep through. 
-
-However, Luna, being somewhat of a connoisseur of plans and pranks, anticipated this, so she turned to Soya and said:
-
-"It's your turn to ring the bell. Go up there! I’ll stand guard.” And when the diamond-chested, gullible kitten did just that, Luna slipped away, rapturous at this bonus prank, the sounds of a disgruntled cat berating a kitten fading behind her as she fled.
 	
-Back on the porch, beration complete, Blade pushed his parcel into a regretful Soya’s paws and set her about making the delivery. Which meant he was completely free to ponder the suspicious spot in peace.
+てんとう虫は突然の衝撃に腹を立て、天井に飛び退き、結局、猫の頭は止まるのに理想的ではないと結論づけました。このとき、ブレイドは天井に再び怪しいシミが現れたことも確認せずに、激怒して玄関に駆け寄りました。 
+	
+彼はドアを開け、誰もいないことに驚きもせず、午前中の陽射しの中で叫びました。「お前なんだろ、ルナ！」「知っているぞ、ルナ！お前と、僕を困らせるために連れてきた子猫たちだ。」「僕に構うな！さもないと、僕は・・・」彼はまだ前足で握っている小包に目をやると「おまえたちに使い走りをさせるぞ！」 と叫びました。
+	
+答えはありませんでした。もともと返事があることを期待していませんでした。しかし、彼には計画がありました。 
+
+彼は、大げさな身振りで扉を閉めたふりをしました。実際は彼が覗き込める程度にドアを少しだけ開けたままにして。
+
+しかし、イタズラの天才であるルナはこの計画を見抜いて、敢えてソヤにこう言います。
+
+
+「今度はあなたの番よ。呼び鈴を鳴らすために上に行きなさい！私は見張りに立つわ」こうして胸にあるダイヤ模様が特徴の騙されやすい子猫がその通りにすると、ルナはこのおまけのイタズラに満足しながら、そっと立ち去ったのでした。 騙されたソヤが不満げに自分を責める声がすこしずつ遠くなっていくのを聞きながら。
+	
+ポーチに戻ると、ブレイドは悔しがるソヤの手に小包を押し付けて、配達に向かわせたのでした。これで、彼は安心して怪しげな天井のシミについて心おきなく思いを巡らすことができるようになりました。
 
 _____________________________
 
@@ -96,5 +96,5 @@ _____________________________
 _____________________________
 
 
-**[Chapter 3 Part 2 - Commentary - Multiple Qubits, Entanglement, and Bell States](https://quantum-kittens.github.io/posts/CHAPTER-3-Part-2-Multiple-Qubits-Entanglement-and-Bell-States/)**
+**[第３章 - 解説 - 複数量子ビット, もつれ, ベル状態について](https://quantum-kittens-ja.github.io/posts/CHAPTER-3-Part-2-Multiple-Qubits-Entanglement-and-Bell-States/)**
 
