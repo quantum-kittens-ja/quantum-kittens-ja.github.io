@@ -41,7 +41,7 @@ _____________________________
 _____________________________
 
 
-**[第1章- 解説 - 量子コンピューティング入門](https://quantum-kittens.github.io/posts/CHAPTER-1-Part-2-Introduction-to-Quantum-Computing/)**
+**[第1章- 解説 - 量子コンピューティング入門](https://quantum-kittens-ja.github.io/posts/CHAPTER-1-Part-2-Introduction-to-Quantum-Computing/)**
 
 
-**[第2章 - 物語 - シュレーディンガーの日](https://quantum-kittens.github.io/posts/CHAPTER-2-Story-Schr%C3%B6dinger-Day/)**
+**[第2章 - 物語 - シュレーディンガーの日](https://quantum-kittens-ja.github.io/posts/CHAPTER-2-Story-Schr%C3%B6dinger-Day/)**
