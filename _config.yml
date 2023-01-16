@@ -23,7 +23,7 @@ timezone:
 
 title: Quantum Kittens (Beta)                         # the main title
 
-tagline: Learn quantum computing through stories about cats   # it will display as the sub-title
+tagline: 猫たちのお話を通じて量子コンピューターについて学ぼう！   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Learn quantum computing through stories about cats. A non-technical book for high school students and above.
