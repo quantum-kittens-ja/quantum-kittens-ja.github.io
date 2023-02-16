@@ -1,19 +1,19 @@
 ---
-title: 'Title Page'
+title: '標題紙'
 math: true
 ---
 
 ![](/assets/imgs/cover_beta.png){: style="max-width: 700px" .center}
 
 
-*For all cats, big and small, who have ever lived, and will ever live.*
+これまで生きてきた、そしてこれからも生きていく、大小さまざまなすべての猫のために。
 
 
 
-## How to Read
+## 読みかた
 
-Each chapter has two parts to it: 
-- Story (part 1) is about cats in Whiskerton
-- Commentary (part 2) explains the quantum concepts demonstrated in the story
+各章は2つのパートで構成されています。
+- ストーリー（その1）は、ウィスカートンの猫たちの話です。
+- 解説（その2）では、物語に登場する量子の概念を解説しています。
 
-This Beta version contains the first three chapters of *Quantum Kittens*.
+このベータ版には、「Quantum Kittens」の最初の3章が含まれています。
