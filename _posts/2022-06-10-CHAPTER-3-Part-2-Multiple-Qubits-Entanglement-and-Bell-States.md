@@ -143,6 +143,6 @@ doorbell_circuit.draw('mpl') # See what the circuit looks like.
 
 The above code is also available as a jupyter notebook [here](https://github.com/quantum-kittens/quantum-kittens.github.io/blob/main/jupyter_notebooks/QK_Chapter_3.ipynb).
 
-As an exercise, run this circuit in a similar way to the marble circuit in [Chapter 2](https://quantum-kittens.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/)!
+As an exercise, run this circuit in a similar way to the marble circuit in [Chapter 2](https://quantum-kittens-ja.github.io/posts/CHAPTER-2-Part-2-Qubits-Superposition-and-Measurements/)!
 
 *Note: the Qiskit code provided is open source, and does not fall under the copyright of Quantum Kittens.*
